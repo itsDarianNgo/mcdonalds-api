@@ -7,28 +7,41 @@ const PORT = 8000
 app.use(cors())
 
 const foods = {
-    'big mac': {
-        'calories': 10,
-        'carbohydrates': 20, 
-        'fat': 30,
-        'protein': 40
-    }, 
-    'mcdouble':{
-        'calories': 100,
-        'carbohydrates': 209, 
-        'fat': 300,
-        'protein': 400
+    'hamburger': {
+        'calories': 250,
+        'fat': 9, 
+        'carbohydrates': 31,
+        'protein': 12
     },
     'cheeseburger':{
-        'calories': 1000,
-        'carbohydrates': 2000, 
-        'fat': 3000,
-        'protein': 4000
+        'calories': 300,
+        'fat': 12, 
+        'carbohydrates': 33,
+        'protein': 15
     },
+    'big mac': {
+        'calories': 540,
+        'fat': 29, 
+        'carbohydrates': 45,
+        'protein': 25
+    }, 
+    'double cheeseburger':{
+        'calories': 440,
+        'fat': 23, 
+        'carbohydrates': 34,
+        'protein': 25
+    },
+    'mcdouble':{
+        'calories': 390,
+        'fat': 19, 
+        'carbohydrates': 33,
+        'protein': 22
+    },
+
     'unknown':{
         'calories': 'unknown',
-        'carbohydrates': 'unknown', 
-        'fat': 'unknown',
+        'fat': 'unknown', 
+        'carbohydrates': 'unknown',
         'protein': 'unknown'
     }
 }
